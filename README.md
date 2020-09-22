@@ -1,1 +1,73 @@
-# grids
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boststrap grids</title>
+</head>
+
+<style>
+.col-1{
+    background-color: #c3aed6;
+}
+
+.col-6{
+    background-color: #c3aed6;
+    text-align: center;
+}
+
+.col-12{
+    background-color: #c3aed6;
+}
+.col-md-6{
+    background-color: #c3aed6; 
+}
+.col-md-8{ 
+    background-color: #c3aed6;
+}
+#tekst{
+    text-align: center;
+}
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+    </div>
+
+    <div class="row">
+        <div class="col-6 col-md-4">Mia Tomić</div>
+        <div class="col-6 col-md-4">Mia Tomić</div>
+        <div class="col-6 col-md-4">Mia Tomić</div>
+    </div>
+
+    <div class="row">
+        <div class="col-6 col-md-4">Mia Tomić</div>
+        <div class="col-md-8">Mia Tomić</div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">Mia Tomić</div>
+        <div class="col-6">Mia Tomić</div>
+    </div>
+
+    <div class="row">
+       <div class="col-12" id="tekst">Mia Tomić</div> 
+    </div>
+    
+    </div>
+</body>
+</html>
