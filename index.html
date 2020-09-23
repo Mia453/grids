@@ -1,138 +1,79 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap-grid</title>
-    <style>
-        td{
-    background-color: #c3aed6 ;
-}
-
-.container{
-    text-align: center;
-}
-
-.table1 {
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid white;
-    border-collapse: collapse;
-}
-td{
-    padding: 10px;
-    border: 2px solid white;
-    border-collapse: collapse;
-}
-
-.height{
-    height: 50px;
-}
-    </style>
+    <title>Boststrap grids</title>
 </head>
+
+<style>
+
+    .row{
+        margin: 5px;
+    }
+.col-1{
+    background-color: #c3aed6;
+}
+
+.col-6{
+    background-color: #c3aed6;
+    text-align: center;
+}
+
+.col-12{
+    background-color: #c3aed6;
+}
+.col-md-6{
+    background-color: #c3aed6; 
+}
+.col-md-8{ 
+    background-color: #c3aed6;
+}
+#tekst{
+    text-align: center;
+}
+</style>
+
 <body>
-    <table class="table1">
-        <tr>
     <div class="container">
         <div class="row">
-         <td> <div class="col-sm-1 height">
-           Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-1 height">
-             Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-1 height">
-             Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-1 height">
-             Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-1 height">
-            Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-1 height">
-             Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-1 height">
-              Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-1 height">
-                  Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-1 height">
-                  Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-1 height">
-                  Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-1 height">
-                Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-1 height">
-                Mia Tomić
-          </div> </td>
-        </div>
-      </div>
-    </tr>
-    </table>
-    <table class="table1">
-        <tr>
-    <div class="container">
-        <div class="row">
-         <td> <div class="col-sm-4 height">
-               Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-4 height">
-                Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-4 height">
-              Mia Tomić
-          </div> </td>
-        </div>
-      </div>
-    </tr>
-    </table>
-    <table class="table1">
-        <tr>
-    <div class="container">
-        <div class="row">
-         <td> <div class="col-sm-4 height">
-            Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-8 height">
-                Mia Tomić
-          </div> </td>
-        </div>
-      </div>
-    </tr>
-    </table>
-    <table class="table1">
-        <tr>
-    <div class="container">
-        <div class="row">
-         <td> <div class="col-sm-6 height">
-             Mia Tomić
-          </div> </td>
-          <td> <div class="col-sm-6 height">
-                Mia Tomić
-          </div> </td>
-        </div>
-      </div>
-    </tr>
-    </table>
-    <table class="table1">
-        <tr>
-  <div class="container">
-      <div class="row">
-        <td> <div class="col-sm-12 height">
-            Mia Tomić
-        </div> </td>
-      </div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            <div class="col-1">Mia Tomić</div>
+            
     </div>
-    </tr>
-    </table>
+
+    <div class="row">
+        <div class="col-6 col-md-4">Mia Tomić</div>
+        <div class="col-6 col-md-4">Mia Tomić</div>
+        <div class="col-6 col-md-4">Mia Tomić</div>
+    </div>
+
+    <div class="row">
+        <div class="col-6 col-md-4">Mia Tomić</div>
+        <div class="col-md-8">Mia Tomić</div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">Mia Tomić</div>
+        <div class="col-6">Mia Tomić</div>
+    </div>
+
+    <div class="row">
+       <div class="col-12" id="tekst">Mia Tomić</div> 
+    </div>
+    
+    </div>
 </body>
- </htm>
+</html>
 
